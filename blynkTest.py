@@ -54,7 +54,6 @@ while True:
     print(crowd)
 
     blynk.run()
-    blynk.virtual_write(1, " ")
 
     if crowd == 0:
         status = "Empty"
@@ -115,7 +114,7 @@ while True:
                 print(min1[x])
                 print("\n")
 
-                blynk.virtual_write(1, " ")
+            blynk.virtual_write(1, " ")
 
             for x in range(z):
                 if min1[x] > 10:
